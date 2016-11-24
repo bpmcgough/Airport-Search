@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
+    <script src="http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
+    <script src="theNewAirports.js" charset="utf-8" defer></script>
+    <script src="main.js" charset="utf-8" defer></script>
+    <script src="maps.js" charset="utf-8" defer></script>
+    <title>Adventure Calculator</title>
+  </head>
+  <body id="body">
+    <p class="information">Search by airport name, city, or code</p>
+    <div class="inputs">
+      <div class="airport-input">
+        <h2>From: <input oninput="submitSearch('from')" id="from-airport-name-input"/></h2>
+      </div>
+      <div class="airport-input">
+        <h2>To: <input oninput="submitSearch('to')" id="to-airport-name-input"/></h2>
+      </div>
+    </div>
+    <div id="results">
+      <div id="from-airport-display"></div>
+      <div id="to-airport-display"></div>
+    </div>
+    <button onclick="plot()" style="margin: 5px;">Plot it!</button>
+    <div id="distance"></div>
+  </body>
+  <link type="text/css" rel="stylesheet" hr­ef="autocomplete.css"/>
+  <script sr­c="jquery.min.js"></script>
+  <script sr­c="autocomplete.js"></script>
+  <script type="text/javascript"></script>
+  </html>

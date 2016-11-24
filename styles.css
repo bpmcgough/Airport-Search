@@ -1,0 +1,91 @@
+html {
+  width: 100%;
+  height: 100%;
+  /*font-family: "Lucida Grande"*/
+}
+
+body {
+  display: flex;
+  /*justify-content: space-around;*/
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px;
+  margin-right: 20px;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  width: 50%;
+  height: 50.5%;
+}
+
+.result-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#from-airport-display{
+  width: 50%;
+  height: 100%;
+  background: #AFF099;
+}
+
+#from-airport-name-input {
+  background: #AFF099;
+}
+
+#to-airport-display{
+  width: 50%;
+  height: 100%;
+  background: #F0AE99;
+}
+
+#to-airport-name-input {
+  background: #F0AE99;
+}
+
+.found-airport{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.found-airport:hover{
+  background: #81DAF7;
+}
+
+.airport-input {
+  padding: 5px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#distance {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.information{
+  margin: 0px;
+}
